@@ -7,12 +7,6 @@ public class Game {
         Grid enemyFogGrid = new Grid();
         Grid enemyGrid = new Grid();
         Grid userFogGrid = new Grid();
-
-
-
-
-
-
         Player user = new Player("Player 1", userGrid, enemyFogGrid);
         Player enemy = new Player("Player 2", enemyGrid, userFogGrid);
         game(user, enemy);
